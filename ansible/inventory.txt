@@ -1,0 +1,4 @@
+[jenkins]
+ec2-18-157-179-189.eu-central-1.compute.amazonaws.com
+[ci-qa]
+ec2-18-185-77-125.eu-central-1.compute.amazonaws.com

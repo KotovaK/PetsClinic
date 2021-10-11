@@ -1,0 +1,12 @@
+- name: Jenkins bootstrap
+  hosts: jenkins
+  roles:
+  - common
+  - docker_install
+  - jenkins_install
+
+- name: CI-Dev bootstrap
+  hosts: ci-qa
+  roles:
+  - common
+  - docker_install

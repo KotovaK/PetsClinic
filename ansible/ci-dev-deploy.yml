@@ -1,0 +1,4 @@
+- name: CI-Dev deploy
+  hosts: ci-qa
+  roles:
+    - docker_deploy

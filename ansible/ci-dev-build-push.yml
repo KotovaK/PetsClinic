@@ -1,0 +1,6 @@
+- name: build/push docker image
+  hosts: localhost
+  connection: local
+  become: false
+  roles:
+    - docker_build_push

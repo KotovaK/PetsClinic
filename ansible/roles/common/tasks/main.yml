@@ -1,0 +1,8 @@
+- name: apt update
+  apt:
+    update_cache: yes
+
+- name: install packages 
+  apt:
+    name: ['apt-transport-https','ca-certificates', 'curl', 'software-properties-common']
+    state: present
