@@ -1,6 +1,6 @@
   - name: install jenkin's repo key 
     shell:
-     cmd: wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | apt-key add -
+     cmd: wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add
     
   - name: add apt jenkins repo
     shell:

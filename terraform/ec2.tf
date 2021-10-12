@@ -21,6 +21,6 @@ resource "aws_instance" "ci-dev" {
 }
 
 resource "aws_key_pair" "ci" {
-  key_name   = "ci.pub"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDpwrp3flPJEe5PhsczAVsGeuTkh6a2IyJSHatZMWkn/EZDcTiO2zuI6oqhZOa5H86bt1XdQRKfS5S1joWpc2I5xEDHTeUo15W4DkBP3Erc5bAbM/8e8/r6MrapPV4Hkbwa/MT/bmAMl4eLGVTHmhUyTBkwU8WNUe7Gh+l4eUcDtKuVoeApL7QkjwybR+sUpDj2/gXhHR/aVe/UyC2zNuvysFxX6qLK3rQQNTAmvSmvo/BFK0Ktr56F0eenVq+4JXXxvhT26ejcwk8z64RgmnBWb+IlaQjrA2iOKz4ky/zC/loWSlABIz4syAG/Vw1rw0dIi3SMgKyFm1g72c3Hc1vh Oleksandr.Kotov"
+  key_name   = "main"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzXbbxK3VekVvDon22Dk/DT37oEwn7GaRb31y5LZihuxZu5hmESUS6/gFakRKSpelv3GnPmExd+PyZdfswvUm2OE5LfxlEnUm9iwqTrvkO5ZaAKlJakTv5NVQYOrCtazB2RLeuilBjn1IGYjJ5bqFwcr0PNu50T9eXKAd89jCEwTQTze5/RBqMcgb4A9a5y5iFBpz8rhnBMCWOuUbFEsmiuloT1ftriK6fJWbgoPXOZRXkntN1VZoNhAAsfnCRBtbEDioXrR+IdKbvDTlrsYPFf0yFVv552uzfeBDfnYdJKBfJW77yx7r1rk148DUtdVfh4jC9QE/ppTAYQhbp4c79 katya@desktop"
 }
