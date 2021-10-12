@@ -21,7 +21,7 @@ pipeline {
                 playbook: 'ansible/ci-dev-deploy.yml',
                 inventory: 'ansible/inventory.txt',
                 disableHostKeyChecking: true,
-                credentialsId: '44f0b4dd-3c99-43d3-ab72-9f6c5d0b99a7',
+                credentialsId: '1bea4368-c8d3-43e5-adba-89119d7e195f',
                 extras: '-e tag=$GIT_COMMIT -e host_port=81 -e env=ci')
             }
         }
