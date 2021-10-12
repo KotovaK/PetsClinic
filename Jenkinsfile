@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build/push docker image') {
             when {
-                branch pattern: "PR-.*|master", comparator: "REGEXP"
+                branch pattern: "PR-.*|develop|master", comparator: "REGEXP"
             }
             steps {
                 ansiblePlaybook(
