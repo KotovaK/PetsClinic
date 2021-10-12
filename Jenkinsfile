@@ -14,7 +14,7 @@ pipeline {
 
         stage('CI env deploy') {
             when {
-                branch pattern: "develop|main", comparator: "REGEXP"
+                branch pattern: "develop|master", comparator: "REGEXP"
             }
             steps {
                 ansiblePlaybook(
